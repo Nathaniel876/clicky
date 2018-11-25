@@ -1,7 +1,6 @@
 import React from "react";
 import Pics from "./Pics";
 import pic from "../pics.json"
-import './Game.css';
 
 let points = 0;
 let highestScore = 0;
