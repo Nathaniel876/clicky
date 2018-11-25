@@ -20,7 +20,7 @@
     "isClicked": false
   },{
     "id": 5,
-    "image": "https://a.facdn.net/1528557564/holykojima.gif",
+    "image": "http://animationsa2z.com/attachments/Image/avatar-snoopy/snoopy3.gif",
     "isClicked": false
   },
   {
@@ -40,6 +40,18 @@
   },{
     "id": 9,
     "image": "https://i.gifer.com/5B9U.gif",
+    "isClicked": false
+  },{
+    "id": 10,
+    "image": "http://www.avatarsdb.com/avatars/panda_kiss.gif",
+    "isClicked": false
+  },{
+    "id": 11,
+    "image": "http://www.animated-gifs.eu/category_animals/avatars-100x100-dogs/0077.gif",
+    "isClicked": false
+  },{
+    "id": 12,
+    "image": "https://i.gifer.com/embedded/download/MmcB.gif",
     "isClicked": false
   }
 ]
