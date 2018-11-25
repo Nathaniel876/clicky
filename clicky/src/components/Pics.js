@@ -1,13 +1,13 @@
 import React from "react";
-import './Clicky.css';
+import './Game.css';
 
-const Picture = props => (
+const Pics = props => (
     
-        <div className="col-sm-3" id = {props.id}
+        <div className="col-sm-4" id = {props.id}
         onClick={() => props.setClicked(props.id)}>
             <img src={props.image} alt={props.id} />
         </div>
     
 )
 
-export default Picture;
+export default Pics;

@@ -1,13 +1,13 @@
 import React from "react";
-import Picture from "./Pic";
-import pic from "./pics.json"
+import Pics from "./Pics";
+import pic from "../pics.json"
 import './Game.css';
 
 let points = 0;
 let highestScore = 0;
 
 
-class Clicky extends React.Component {
+class Game extends React.Component {
     state = {
         pic,
         highestScore,
@@ -53,15 +53,15 @@ class Clicky extends React.Component {
             <div>
                 <div className="hero">
                     <div className="heroText">
-                        <h1 className="banner">Clicky Game</h1>
-                        <h3 className="rules">Dont Click Same Pic Twice</h3>
+                        <h1 className="banner">Click Game</h1>
+                        <h3 className="rules">Dont Click Same Gif Twice</h3>
                         <h4 className="hs">Highest Score: {this.state.highestScore}</h4>
                         <h4 className="psf">Score So Far: {this.state.points}</h4>
                     </div>
                 </div>
                 <div className="row panel">
                     {this.state.pic.map(pic => (
-                        <Picture
+                        <Pics
                             setClicked={this.setClicked}
                             id={pic.id}
                             key={pic.id}
@@ -74,4 +74,4 @@ class Clicky extends React.Component {
     }
 };
 
-export default Clicky;
+export default Game;
